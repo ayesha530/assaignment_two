@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+    padding:0;
+  
+  }
+  p{
+    font-family: "Inter", sans-serif
+  }
+  .header-content{
+    width:80%;
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+    height: 70px;
+    align-items: center;
+    padding-top: 15px;
+  }
+  .logo{
+    width:20%;
+  display: flex;
+  }
+  .nav{
+    width:50%;
+  }
+  nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+  }
+  nav ul li{
+    margin-left:40px;
+  }  
+  nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color:#000;
+    font-weight: normal;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  nav ul li a::before{
+    content:   "";
+    position: absolute;
+    bottom:0%;
+    left:0;
+    width:0%;
+    height: 3px;
+    background-color: #FF5400;
+    transition: .2s ease-in-out;
+  
+  }
+  nav ul li a:hover::before{
+    width:45%;
+   
+  }   
+  nav ul li a::after{
+    content:   "";
+    position: absolute;
+    bottom:0%;
+    right:0;
+    width:0%;
+    height: 3px;
+    background-color: #FF5400;
+     transition: .2s ease-in-out;
+  
+  }
+  nav ul li a:hover::after{
+    width:45%;
+   
+  }
+  .banner_section{
+    width:80%;
+    margin:auto;
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-around;
+    padding: 50px 0px 50px 0px;
+  }
+  /* plan section start */
+  .cart_container{
+    margin:auto !important;
+    width: 88%;
+    
+    
+  }
+  .content{
+    margin-top: 40px;
+    padding-left: 15px;
+  }
+  .contentBox{
+  
+  }
+  .contentBox h3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .content_img{
+    background-color: #FF5400;
+    color:#fff;
+    margin-top: 15px;
+    padding:10px 20px 10px 20px;
+    width: 245px;
+  }
+  /* flowr section start */
+  .flower_section{
+    width:80%;
+    margin:auto;
+    padding:50px 0px 50px 0px;
+    
+  }
+  
+  .plant{
+    padding-left: 40px;
+  }
+  .list_content{
+    margin-top: 20px;
+  }
+  .list_content ul{}
+  .list_content ul li{
+    color:#00000080;
+    margin-bottom: 15px;
+    font-family: "Inter", sans-serif;
+    font-size: 22px;}
+    .flowr_img{
+        position: relative
+    }
+.trut_img{
+    position:absolute;
+    width: 286px;
+}

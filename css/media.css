@@ -1,0 +1,13 @@
+@media(max-width:575px){
+    .banner_section {
+        flex-direction: column-reverse !important;
+      }
+      .header_text{
+        font-size:30px
+      }
+      .flower_content{
+        display: flex;
+        flex-direction: column !important;
+      }
+
+}
