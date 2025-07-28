@@ -82,12 +82,16 @@
     padding: 50px 0px 50px 0px;
   }
   /* plan section start */
-  .cart_container{
-    margin:auto !important;
-    width: 88%;
-    
-    
+  .planSection{
+    width:80%;
+    margin:auto;
   }
+  /* .cart_container{
+    margin:auto !important;
+    width: 100%;
+    
+    
+  } */
   .content{
     margin-top: 40px;
     padding-left: 15px;
@@ -132,4 +136,112 @@
 .trut_img{
     position:absolute;
     width: 286px;
+}
+/* latest section start */
+.latest_section{
+    width:80%;
+    margin:auto;
+    padding: 50px 0px 50px 0px;
+}
+.latestBox_One{
+  position: relative;
+  background-image: url(../images/deal-bloom.png);
+  min-height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width:100%;
+  margin-top: 20px;
+  border-radius: 15px;
+  z-index: 0;
+  
+  
+}
+.latestBox_One::before{
+  content:"";
+  position:absolute;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  background-color:#000;
+  border-radius: 15px;
+  opacity: .4;
+  z-index:-1;
+}
+.latesBoxContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+.latestBoxText{
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.para{
+ font-size: 12px;
+ color:#fff;
+ font-weight:900;
+ text-decoration: underline;
+
+
+}
+.latestBox_Three{
+  position: relative;
+  background-image: url(../images/deal-ana.png);
+  min-height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width:100%;
+  margin-top: 20px;
+  border-radius: 15px;
+  z-index: 0;
+  
+}
+.latestBox_Three::before{
+  content:"";
+  position:absolute;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  background-color:#000;
+  border-radius: 15px;
+  opacity: .4;
+  z-index:-1;
+}
+.borderBox{
+  position: relative;
+  background-image: url(../images/deal-zabo.png);
+  min-height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width:100%;
+  margin-top: 20px;
+  border-radius: 15px;
+  margin-left: 15px;
+  color: white;
+  overflow: hidden; 
+  z-index: 0;
+
+}
+.borderBox::before{
+  content:"";
+  position:absolute;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  background-color:#000;
+  border-radius: 15px;
+  opacity: 0.4;
+  z-index:-1;
 }
