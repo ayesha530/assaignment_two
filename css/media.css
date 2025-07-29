@@ -1,4 +1,7 @@
 @media(max-width:575px){
+    .headerNav ul li{
+      display: none;
+    }
     .banner_section {
         flex-direction: column-reverse !important;
       }
@@ -6,6 +9,9 @@
         font-size:30px;
         text-align: left;
 
+      }
+      .headerNav ul li#showThis {
+        display: list-item;
       }
       .flower_content{
         display: flex;
@@ -46,6 +52,19 @@
      .containerTwo{
       justify-content: left;
       margin-top: 15px;
+     }
+     .lates_para{
+      font-size: 14px;
+      width: 400px;
+     }
+     .trut_img{
+      display: none;
+     }
+     .input-group button {
+      font-size: 12px;
+     }
+     .input-group input[type="email"] {
+      font-size: 12px;
      }
 
 }

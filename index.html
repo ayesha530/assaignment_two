@@ -7,6 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="css/all.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +24,7 @@
             <img src="images/logo.png" alt="">
             
         </div>
-        <nav>
+        <nav class="headerNav">
             <ul>
                 <li>
                    <a href="">home</a>
@@ -34,8 +35,11 @@
                 <li>
                     <a href="">About Us</a>
                 </li>
-                <li>
-                    <a href="">about</a>
+                <li id="showThis">
+                    <a href="">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                      Cart ($56)
+                    </a>
                 </li>
             </ul>
         </nav>
@@ -100,11 +104,46 @@
            <img src="images/sample-flower-image.png" alt="">
             <div class="contentBox">
               <h3 class="mt-5 font-medium text-[22px] text-center">Lily Blossom</h3>
-              <p class="text-center mt-5">20 USD</p>
+              <p class="text-center mt-5 font-bold">20 USD</p>
               <button class="content_img">ADD TO CART</button>
             </div>
          </div>
          <!--  -->
+         <div class="content">
+          <img src="images/sample-flower-image.png" alt="">
+           <div class="contentBox">
+             <h3 class="mt-5 font-medium text-[22px] text-center">Lily Blossom</h3>
+             <p class="text-center mt-5 font-bold">20 USD</p>
+             <button class="content_img">ADD TO CART</button>
+           </div>
+        </div>
+        <!--  -->
+        <div class="content">
+          <img src="images/sample-flower-image.png" alt="">
+           <div class="contentBox">
+             <h3 class="mt-5 font-medium text-[22px] text-center">Lily Blossom</h3>
+             <p class="text-center mt-5 font-bold">20 USD</p>
+             <button class="content_img">ADD TO CART</button>
+           </div>
+        </div>
+        <!--  -->
+        <div class="content">
+          <img src="images/sample-flower-image.png" alt="">
+           <div class="contentBox">
+             <h3 class="mt-5 font-medium text-[22px] text-center">Lily Blossom</h3>
+             <p class="text-center mt-5 font-bold">20 USD</p>
+             <button class="content_img">ADD TO CART</button>
+           </div>
+        </div>
+        <!--  -->
+        <div class="content">
+          <img src="images/sample-flower-image.png" alt="">
+           <div class="contentBox">
+             <h3 class="mt-5 font-medium text-[22px] text-center">Lily Blossom</h3>
+             <p class="text-center mt-5 font-bold">20 USD</p>
+             <button class="content_img">ADD TO CART</button>
+           </div>
+        </div>
            </div>
         </div>
     </div>
@@ -113,9 +152,11 @@
 <!-- flower section start -->
  <section class="flower_section">
    <div class="flower_content grid grid-cols-1 lg:grid-cols-2">
-     <div class="flowr_img">
-        <div>
+     <div class="flower_img">
+        <div class="flower_content">
+          <div>
             <img src="images/flower-store.png" alt="">
+        </div>
         </div>
      </div>
      <div class="plant">
@@ -138,6 +179,12 @@
 <!-- flower section end -->
 <!-- latest section start -->
  <section class="latest_section">
+  <div class="flex justify-center items-center">
+    <div class="s">
+      <h2 class="text-[#000] font-bold text-[50px] mb-5 text-center"> <span class="text-[#E95A08]">Latest</span> Deals</h2>
+      <p class="w-[888px] text-center lates_para">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+    </div>
+  </div>
   <div class="grid lg:grid-cols-3 grid-cols-1"> 
     <div class="col-span-1 ">
       <!--  -->

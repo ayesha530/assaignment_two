@@ -21,7 +21,7 @@
   }
   .logo{
     width:20%;
-  display: flex;
+    display: flex;
   }
   .nav{
     width:50%;
@@ -38,7 +38,7 @@
     text-decoration: none;
     text-transform: uppercase;
     font-size: 18px;
-    color:#000;
+    color:#8987A1;
     font-weight: normal;
     position: relative;
     padding-bottom: 10px;
@@ -89,6 +89,7 @@
   .planSection{
     width:80%;
     margin:auto;
+    padding: 50px 0px 80px 0px;
   }
    .plant h2{
     font-family: "Noto Serif", serif;
@@ -96,6 +97,16 @@
   .content{
     margin-top: 40px;
     padding-left: 15px;
+  }
+  .content h2{
+    font-weight: bold;
+    color:#111111;
+    font-size: 22px;
+  }
+  .content p{
+    font-weight: bold;
+    color:#111111;
+    font-size: 22px;
   }
   .contentBox{
   
@@ -110,20 +121,21 @@
     margin-top: 15px;
     padding:10px 20px 10px 20px;
     width: 245px;
+    font-size: 16px;
+    font-weight: 700;
+    
   }
   /* flowr section start */
   .flower_section{
     width:80%;
     margin:auto;
-    padding:50px 0px 50px 0px;
+    padding:80px 0px 80px 0px;
+  
     
   }
   
   .plant{
-    padding-left: 40px;
-  }
-  .plant h2{
-    
+    margin-left: 60px;
   }
   .list_content{
     margin-top: 20px;
@@ -134,18 +146,24 @@
     margin-bottom: 15px;
     font-family: "Inter", sans-serif;
     font-size: 22px;}
-    .flowr_img{
-        position: relative
+    .flower_content{
+        position: relative;
     }
 .trut_img{
     position:absolute;
-    width: 286px;
+    width: 200px;
+    left: 48%;
+    transform: translate(-50%, -50%);
 }
 /* latest section start */
 .latest_section{
     width:80%;
     margin:auto;
     padding: 50px 0px 50px 0px;
+}
+.lates_para{
+  margin-bottom: 30px;
+  margin-top: 15px;
 }
 .latestBox_One{
   position: relative;
