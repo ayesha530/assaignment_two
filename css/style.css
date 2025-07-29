@@ -333,3 +333,38 @@
   cursor: pointer;
   transition: background 0.3s;
 }
+.footer_section{
+  width: 80%;
+  margin:auto;
+  padding-bottom: 30px;
+}
+.containerOne{}
+.containerOne p{
+  margin-top: 15px;
+  font-size: 22px;
+  color:#00000080
+}
+.containerTwo{
+  display: flex;
+  justify-content: center;
+}
+.containerTwo ul{
+
+}
+.containerTwo ul li{
+  margin-bottom: 20px;
+}
+.containerTwo ul li a{
+  color:#6B7280;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.containerFour{
+  
+}
+.containerFour ul{
+  display: flex;
+}
+.socialImg{
+  margin-right: 20px;
+}

@@ -43,5 +43,9 @@
      .joni_content h2{
       font-size: 20px;
      } 
+     .containerTwo{
+      justify-content: left;
+      margin-top: 15px;
+     }
 
 }
