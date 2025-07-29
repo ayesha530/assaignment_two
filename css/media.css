@@ -3,7 +3,9 @@
         flex-direction: column-reverse !important;
       }
       .header_text{
-        font-size:30px
+        font-size:30px;
+        text-align: left;
+
       }
       .flower_content{
         display: flex;
@@ -12,5 +14,34 @@
       .borderBox{
         margin-left: 0px;
       }
+      .plant h2{
+        font-size: 40px;
+        margin-top: 15px;
+      }
+     .list_content ul li{
+      font-size: 16px;
+     }
+     .content_img{
+      width:160px
+     }
+     .health_banner h2{
+      margin-top: 30px;
+     }
+     .para_text{
+      font-size: 30px !important;
+      text-align: left !important;
+     }
+     .health_banner p{
+      width: 360px;
+      font-size: 14px;
+      margin-top: 20px;
+     }
+     .plant_para{
+      font-size: 14px;
+      width: 400px;
+     }
+     .joni_content h2{
+      font-size: 20px;
+     } 
 
 }
