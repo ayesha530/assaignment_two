@@ -66,5 +66,26 @@
      .input-group input[type="email"] {
       font-size: 12px;
      }
+     .plant {
+      margin-left: 10px;
+     }
+     .plant h2{
+      font-size: 24px;
+     }
+     .latest_content{
+      font-size: 24px;
+     }
+     .plantText{
+      font-size: 24px;
+     }
+     .contentBox h3 {
+      font-size: 16px;
+     }
+     .contentBox p {
+      font-size: 16px;
+     }
+     .content_img {
+      font-size: 16px;
+     }
 
 }
